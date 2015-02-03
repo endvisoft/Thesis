@@ -1,0 +1,2616 @@
+[ INFO  ] BabelNetConfiguration - BabelNet starts with empty configuration
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet-2.5/dict
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: BabelNet/dict
+[ INFO  ] BabelNetConfiguration - BabelNet starts with empty configuration
+[ INFO  ] BabelNetConfiguration - BabelNet starts with empty configuration
+[ INFO  ] BabelNetConfiguration - BabelNet starts with empty configuration
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/dict
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_SA_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_30
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CECILL_C
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CECILL_C
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CECILL_C
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_APACHE_20
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_APACHE_20
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_APACHE_20
+[ INFO  ] BabelNet - Opening lexicon index: D:\BabelNet/lexicon_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening dict index: D:\BabelNet/dict_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Opening gloss index: D:\BabelNet/gloss_CC_BY_NC_SA_30
+[ INFO  ] BabelNet - Using BabelNet v2.5
+[ INFO  ] BabelNet - Opening mapping index
+[ INFO  ] BabelNet - Opening graph index: D:\BabelNet/graph_CC_BY_NC_SA_30
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] BabelNetConfiguration - Loading babelnet.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\babelnet.properties
+[ INFO  ] BabelNet - BabelNet API v2.5 written by Roberto Navigli, Simone Ponzetto and Daniele Vannella, with additional contributions by Francesco Cecconi
+[ INFO  ] BabelNet - ---------------
+[ INFO  ] BabelNet - Opening dict index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Opening gloss index: E:\BabelNet/gloss
+[ INFO  ] BabelNet - Opening lexicon index: E:\BabelNet/dict
+[ INFO  ] BabelNet - Using BabelNet v< 2.0
+[ INFO  ] BabelNet - Opening graph index: E:\BabelNet/graph
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
+[ INFO  ] Configuration - Loading jlt.properties FROM C:\Users\Win 8.1\Documents\NetBeansProjects\Thesis\config\jlt.properties
