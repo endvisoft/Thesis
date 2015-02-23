@@ -1,9 +1,14 @@
 
+import edu.mit.jwi.Dictionary;
+import edu.mit.jwi.IDictionary;
+import edu.mit.jwi.item.IIndexWord;
 import edu.mit.jwi.item.IPointer;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.ISynsetID;
+import edu.mit.jwi.item.IWord;
 import edu.mit.jwi.item.POS;
 import edu.mit.jwi.item.SynsetID;
+import it.uniroma1.lcl.babelnet.BabelCategory;
 import it.uniroma1.lcl.babelnet.BabelGloss;
 import it.uniroma1.lcl.babelnet.BabelNet;
 import it.uniroma1.lcl.babelnet.BabelSynset;
@@ -23,6 +28,7 @@ import it.uniroma1.lcl.jlt.wiki.iterator.WikiDumpIterator;
 import it.uniroma1.lcl.jlt.wikico.WikicoDB;
 import it.uniroma1.lcl.jlt.wordnet.WordNet;
 import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -42,59 +48,15 @@ import org.apache.lucene.store.FSDirectory;
  */
 public class BuildBabelNet {
     public static void main(String[] args) throws Exception {
-        BabelNet bn = BabelNet.getInstance();
-        WordNet wn = WordNet.getInstance();
-        WikiDumpExtractor ex = new WikiDumpExtractor(null);
-        WikiDumpIterator iter = new WikiDumpIterator(null);
-        WikiCategory cate;
-        WikiPage page;
-        WikiMapper map = new WikiMapper(null, null);
-        SearchWiki search = new SearchWiki("");
-        Set<WikiPage> list = search.getPagesByCategoryTitle("Business");
-        Set<String> listcate= SearchWikiCategory.class.newInstance().getSubCategories("Business");
-        BabelSynset listSynset = bn.getSynsetFromId("bn:00028604n");
-        //for(BabelSynset wnSynset : listSynset){
-                	/*System.out.println(wnSynset.toString());
-                        if(!wn.isMonosemous("payment", POS.NOUN))
-                        {
-                            System.out.println("Bukan Mono Nih");
-                        } else {
-                            System.out.println("Mono Nih");
-                        }
-                        List<ISynsetID> derive = wnSynset.getRelatedSynsets(IPointer.class.newInstance());
-        		List<ISynset> hypernymy = wn.getHypernyms(wnSynset);
-        		List<ISynset> hyponymy = wn.getHyponyms(wnSynset);
-        		List<ISynset> sibling = wn.getSiblings(wnSynset);
-        		Set<ISynset> related = wn.getRelatedSynsets(wnSynset);
-        		Set<ISynset> derivation = wn.getDescendants(wnSynset);
-        		System.out.println(wnSynset.getGloss());
-        		System.out.println("hypernymy");
-        		for(int a=0; a<hypernymy.size(); a++){
-        			System.out.println(hypernymy.get(a));
-        		}
-        		System.out.println("hyponymy");
-        		for(int a=0; a<hyponymy.size(); a++){
-        			System.out.println(hyponymy.get(a));
-        		}
-        		System.out.println("siblings");
-        		for(int a=0; a<sibling.size(); a++){
-        			System.out.println(sibling.get(a));
-        		}
-        		System.out.println("related");
-        		for(ISynset s : related){
-        			System.out.println(s);
-        		}
-        		System.out.println("derivation");
-        		for(ISynset d : derivation){
-        			System.out.println(d);
-        		}*/
-                        Map<IPointer,List<BabelSynset>> relation = listSynset.getRelatedMap();
-                        for (IPointer key : relation.keySet()) {
-                            List<BabelSynset> value = relation.get(key);
-                            for(int i=0; i<value.size(); i++)
-                            System.out.println("Key = " + key + ", Value = " + value.get(i));
-                        }
-          
+        URL url = new URL("file",null,"E:\\WordNet-3.0\\dict");
+        IDictionary dict = new Dictionary (url);
+        dict.open();
+        IIndexWord idxWord = dict.getIndexWord ("drink", POS.VERB);
+        for(int i=0; i<idxWord.getWordIDs().size(); i++)
+        {
+            IWord word = dict.getWord(idxWord.getWordIDs().get(i));
+            System.out.println("Lemma :"+word);
+        }
         }
     
     
