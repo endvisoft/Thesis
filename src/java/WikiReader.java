@@ -18,25 +18,30 @@ public class WikiReader {
          it.uniroma1.lcl.jlt.wiki.data.WikiPage wiki;
          
          WikiXMLParser wxp = WikiXMLParserFactory.getSAXParser("D:\\S2\\Thesis\\Wiki\\wikidump.xml");
-         try
+         /*try
          {
              wxp.setPageCallback(new PageCallbackHandler() {
 
                  @Override
                  public void process(WikiPage wp) {
                      //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-                     System.out.println("Redirect : "+wp.getRedirectPage());
-                     System.out.println("Tittle : "+wp.getTitle());
-                     System.out.println("Links : "+wp.getLinks());
-                     System.out.println("Text : "+wp.getText());
-                     System.out.println("Gantii....");
+                     //System.out.println("Redirect : "+wp.getRedirectPage());
+                     //System.out.println("Tittle : "+wp.getTitle());
+                     //System.out.println("Links : "+wp.getLinks());
+                     //System.out.println("Text : "+wp.getText());
+                     System.out.println(wp.toString());
+                 }
+
+                 @Override
+                 public void process(WikiPage wp) {
+                     throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
                  }
              });
              wxp.parse();
          }
          catch(Exception e){
             e.printStackTrace();
-         }
+         }*/
                         
                  
      }

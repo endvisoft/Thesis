@@ -64,7 +64,7 @@ public class Mapping {
         dict.open();
         List<String> contextWiki = new ArrayList<>();
         List<String> contextWordNet = new ArrayList<>();
-        int maxDepth = 5;
+        int maxDepth = 3;
         contextWiki.addAll(wp.getInfoboxLinks());
         contextWiki.addAll(wp.getLinkedPages());
         contextWiki.addAll(wp.getCategories());
@@ -72,6 +72,9 @@ public class Mapping {
         {
             contextWiki.add(listWikiRed[i]);
         }
+        /*for(int i=0; i<contextWiki.size(); i++){
+            System.out.println(contextWiki.get(i));
+        }*/
         IIndexWord idxWord1 = dict.getIndexWord (wp.getLemma(), POS.NOUN);
         Double resultScore [] = new Double[idxWord1.getWordIDs().size()];
         Integer sumWord [] = new Integer[idxWord1.getWordIDs().size()];
@@ -114,7 +117,7 @@ public class Mapping {
                 score = score + result;
             }
             resultScore[i] = score;
-            System.out.println("Selesai "+i+" dengan score :"+resultScore[i]);
+            System.out.println("Selesai "+dict.getWord(idxWord1.getWordIDs().get(i)).getSynset()+" dengan score :"+resultScore[i]);
         }
         int index = 0;
         Double max = 0.0;
@@ -141,6 +144,9 @@ public class Mapping {
         for(int i=0; i<listWikiRed.length; i++)
         {
             contextWiki.add(listWikiRed[i]);
+        }
+        for(int i=0; i<contextWiki.size(); i++){
+            System.out.println(contextWiki.get(i));
         }
         IIndexWord idxWord = dict.getIndexWord (wp.getLemma(), POS.NOUN);
         Double resultScore [] = new Double[idxWord.getWordIDs().size()];
@@ -205,9 +211,9 @@ public class Mapping {
     public static void main(String[] args) throws Exception {
          WikiText text1 = new WikiText();
          WikiPage wiki1 = new WikiPage("wiki01", "Play(Theatre)", "play", text1, 
-                                      new String[] {"poem","comedy","drama","epic","erotic","romance","satire","tragedy","performance","comedy","book","prose","history","literature","playwright","dialogue","character","theatrical","broadway","theatre","musical","shakespeare","farces","drama","screenplay","dramatic"} ,
+                                      new String[] {"cruelty","absurd","satyr","act","actor","comedy","drama","epic","erotic","romance","tragedy","performance","comedy","historical","literature","playwright","dialogue","character","theatrical","broadway","theatre","musical","shakespeare","farces","screenplay","dramatic","satirical"} ,
                                       new String[] {"literature","playwright","dialogue","character","theatrical","Broadway","theatre","Musical","Shakespeare","farces","drama","screenplay"}, 
-                                      new String[] {"drama", "theatre", "arts", "perform"}, 
+                                      new String[] {"theatre", "art"}, 
                                       new String[] {}, 
                                       new String[] {}, 
                                       new String[] {}, 
@@ -215,23 +221,22 @@ public class Mapping {
          
          WikiText text2 = new WikiText();
          WikiPage wiki2 = new WikiPage("wiki02", "Play(Activity)", "play", text1, 
-                                      new String[] {"phsycology","ethology","voluntary","Piaget","Freud","Jung","game","child","children","goal","sport","playground","happiness","museum","socialization","toy","prop","playmate","learning","neuroscience","gameplay","childhood","friend","playwork","playspace","behavior"},
+                                      new String[] {"fixed_rule","imagination","activity","phsycology","Piaget","Freud","child","children","goal","playground","happiness","museum","socialization","toy","prop","playmate","neuroscience","gameplay","childhood","friend","playwork","playspace","behavior"},
                                       new String[] {}, 
-                                      new String[] {"behavior", "ethology", "learning", "play"}, 
+                                      new String[] {"learning"}, 
                                       new String[] {}, 
                                       new String[] {}, 
                                       new String[] {}, 
                                       false);
         
-        String wikiRed1 [] = new String[] {"playgoer","playlet","stageplay","stage","genre","theatrical"};
+        String wikiRed1 [] = new String[] {"playlet","stageplay","stage","genre","theatrical"};
         String wikiRed2 [] = new String[] {"animal","behaviour"};
         List<WikiPage> listWiki = new ArrayList<>();
         List<String []> listWikiRed = new ArrayList<>();
-        listWiki.add(wiki1);
+        //listWiki.add(wiki1);
         listWiki.add(wiki2);
-        listWikiRed.add(wikiRed1);
+        //listWikiRed.add(wikiRed1);
         listWikiRed.add(wikiRed2);
         mapping(listWiki, listWikiRed);
         }
-     
 }

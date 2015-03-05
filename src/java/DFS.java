@@ -93,7 +93,7 @@ public class DFS {
                 depth++;
                 List<ISynsetID> related = new ArrayList<>();
                 related.addAll(element.get(element.size()-1).getRelatedSynsets());
-                /*List<IWord> word = element.get(element.size()-1).getWords();
+                List<IWord> word = element.get(element.size()-1).getWords();
                 for (IWord word1 : word) {
                 List<IWordID> derivational = word1.getRelatedWords(Pointer.DERIVATIONALLY_RELATED);
                 for(IWordID wid:derivational)
@@ -101,7 +101,7 @@ public class DFS {
                     ISynsetID sid = wid.getSynsetID();
                     related.add(sid);
                 }
-                }*/
+                }
                 for(int i = 0; i < related.size(); i++)
                 {
                     ISynset dummy = dict.getSynset(related.get(i));
