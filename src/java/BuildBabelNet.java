@@ -48,16 +48,17 @@ import org.apache.lucene.store.FSDirectory;
  */
 public class BuildBabelNet {
     public static void main(String[] args) throws Exception {
-        URL url = new URL("file",null,"E:\\WordNet-3.0\\dict");
-        IDictionary dict = new Dictionary (url);
-        dict.open();
-        IIndexWord idxWord = dict.getIndexWord ("drink", POS.VERB);
-        for(int i=0; i<idxWord.getWordIDs().size(); i++)
+        IndexReader r = IndexReader.open("D:\\BabelNet\\dict");
+
+        int num = r.numDocs();
+        for ( int i = 0; i < num; i++)
         {
-            IWord word = dict.getWord(idxWord.getWordIDs().get(i));
-            System.out.println("Lemma :"+word);
+            if ( ! r.isDeleted( i))
+            {
+                Document d = r.document( i);
+                System.out.println( "d=" +d);
+            }
         }
-        }
-    
-    
+        r.close();
+    }
 }

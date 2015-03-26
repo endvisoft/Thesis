@@ -8,9 +8,9 @@ import edu.mit.jwi.item.IWord;
 import edu.mit.jwi.item.IWordID;
 import edu.mit.jwi.item.POS;
 import edu.mit.jwi.item.Pointer;
-import it.uniroma1.lcl.jlt.wiki.data.WikiPage;
 import it.uniroma1.lcl.jlt.wiki.data.WikiText;
 import it.uniroma1.lcl.jlt.wordnet.WordNet;
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -29,49 +29,69 @@ import java.util.Map;
  */
 public class Mapping {
     
-    public static void mapping(List<WikiPage> listWikiPage, List<String []> listWikiRed) throws MalformedURLException
+    public static void mapping(List<WikiPage> listWikiPage) throws MalformedURLException
     {
         WordNet wn = WordNet.getInstance();
         Map<WikiPage, ISynset> mapped = new HashMap<>();
         for (WikiPage wp : listWikiPage) {
             mapped.put(wp, null);
         }
-         for (WikiPage wp : listWikiPage) {
+        for (WikiPage wp : listWikiPage) {
             if(wn.isMonosemous(wp.getLemma(), POS.NOUN)){
                 List<ISynset> dummy = new ArrayList<>();
                 dummy = wn.getSynsets(wp.getLemma(), POS.NOUN);
                 mapped.put(wp, dummy.get(0));
+                System.out.println(wp.getLemma()+" Mapped on 1 "+dummy.get(0));
             }
         }
-         for (WikiPage wp : listWikiPage) {
+        /*for (WikiPage wp : listWikiPage) {
             if(mapped.get(wp) == null)
             {
-                //if(wp.get)
+                for(int i=0; i<wp.getRedirection().length; i++){
+                    if(wn.isMonosemous(wp.getRedirection()[i], POS.NOUN)){
+                        List<ISynset> dummy = new ArrayList<>();
+                        dummy = wn.getSynsets(wp.getRedirection()[i], POS.NOUN);
+                        mapped.put(wp, dummy.get(0));
+                        System.out.println(wp.getLemma()+" Mapped on 2 "+dummy.get(0));
+                        break;
+                    }
+                }
             }
-        }
-         for (int i=0; i<listWikiPage.size(); i++) {
-            if(mapped.get(i) == null){
+        }*/
+        for (WikiPage wp : listWikiPage) {
+            if(mapped.get(wp) == null){
                 //BOW(listWikiPage.get(i), listWikiRed.get(i));
-                contextGraph(listWikiPage.get(i), listWikiRed.get(i));
+                //contextGraph(wp);
+                if(wn.getSynsets(wp.getLemma(), POS.NOUN).isEmpty())
+                {
+                    System.out.println("Buat baru");
+                }
+                else
+                {
+                    contextGraph(wp);
+                }
             }
         }
          
     }
     
-    public static void contextGraph(WikiPage wp, String[] listWikiRed) throws MalformedURLException {
+    public static void contextGraph(WikiPage wp) throws MalformedURLException {
         URL url = new URL("file",null,"E:\\WordNet-3.0\\dict");
         IDictionary dict = new Dictionary (url);
         dict.open();
         List<String> contextWiki = new ArrayList<>();
         List<String> contextWordNet = new ArrayList<>();
-        int maxDepth = 3;
-        contextWiki.addAll(wp.getInfoboxLinks());
-        contextWiki.addAll(wp.getLinkedPages());
-        contextWiki.addAll(wp.getCategories());
-        for(int i=0; i<listWikiRed.length; i++)
-        {
-            contextWiki.add(listWikiRed[i]);
+        int maxDepth = 5;
+        for(int i=0; i<wp.getLinks().length; i++){
+            contextWiki.add(wp.getLinks()[i]);
         }
+        for(int i=0; i<wp.getRedirection().length; i++){
+            contextWiki.add(wp.getRedirection()[i]);
+        }
+        for(int i=0; i<wp.getCategories().length; i++){
+            contextWiki.add(wp.getCategories()[i]);
+        }
+        contextWiki.add(wp.getSense());
         /*for(int i=0; i<contextWiki.size(); i++){
             System.out.println(contextWiki.get(i));
         }*/
@@ -88,6 +108,7 @@ public class Mapping {
             ISynset source = word1.getSynset();
             Double score = 0.0;
             for(int j=0; j<contextWiki.size(); j++){
+                System.out.println(contextWiki.get(j));
                 IIndexWord idxWord2 = dict.getIndexWord(contextWiki.get(j),POS.NOUN);
                 Double result = 0.0;
                 if(idxWord2 != null){
@@ -138,9 +159,7 @@ public class Mapping {
         dict.open();
         List<String> contextWiki = new ArrayList<>();
         int max = 0;
-        contextWiki.addAll(wp.getInfoboxLinks());
-        contextWiki.addAll(wp.getLinkedPages());
-        contextWiki.addAll(wp.getCategories());
+       
         for(int i=0; i<listWikiRed.length; i++)
         {
             contextWiki.add(listWikiRed[i]);
@@ -209,34 +228,21 @@ public class Mapping {
     }
     
     public static void main(String[] args) throws Exception {
-         WikiText text1 = new WikiText();
-         WikiPage wiki1 = new WikiPage("wiki01", "Play(Theatre)", "play", text1, 
-                                      new String[] {"cruelty","absurd","satyr","act","actor","comedy","drama","epic","erotic","romance","tragedy","performance","comedy","historical","literature","playwright","dialogue","character","theatrical","broadway","theatre","musical","shakespeare","farces","screenplay","dramatic","satirical"} ,
-                                      new String[] {"literature","playwright","dialogue","character","theatrical","Broadway","theatre","Musical","Shakespeare","farces","drama","screenplay"}, 
-                                      new String[] {"theatre", "art"}, 
-                                      new String[] {}, 
-                                      new String[] {}, 
-                                      new String[] {}, 
-                                      false);
-         
-         WikiText text2 = new WikiText();
-         WikiPage wiki2 = new WikiPage("wiki02", "Play(Activity)", "play", text1, 
-                                      new String[] {"fixed_rule","imagination","activity","phsycology","Piaget","Freud","child","children","goal","playground","happiness","museum","socialization","toy","prop","playmate","neuroscience","gameplay","childhood","friend","playwork","playspace","behavior"},
-                                      new String[] {}, 
-                                      new String[] {"learning"}, 
-                                      new String[] {}, 
-                                      new String[] {}, 
-                                      new String[] {}, 
-                                      false);
-        
-        String wikiRed1 [] = new String[] {"playlet","stageplay","stage","genre","theatrical"};
-        String wikiRed2 [] = new String[] {"animal","behaviour"};
-        List<WikiPage> listWiki = new ArrayList<>();
-        List<String []> listWikiRed = new ArrayList<>();
-        //listWiki.add(wiki1);
-        listWiki.add(wiki2);
-        //listWikiRed.add(wikiRed1);
-        listWikiRed.add(wikiRed2);
-        mapping(listWiki, listWikiRed);
+        File folder = new File("D:\\S2\\Thesis\\txtdir\\coba");
+	File[] fileList = folder.listFiles();
+	List<File> wikifile = new ArrayList<File>();
+	for (File file : fileList)
+	{
+            if (file.getAbsolutePath().endsWith(".xml"))
+            {
+		wikifile.add(file);
+            }
+	}
+        List<WikiPage> listWikiPage = new ArrayList<>();
+        for(File file : wikifile){
+            WikiParser parser = new WikiParser(file.getAbsolutePath());
+            listWikiPage.add(parser.readWikiPage());
         }
+        mapping(listWikiPage);
+    }
 }

@@ -3,6 +3,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.Writer;
+import java.net.Authenticator;
+import java.net.PasswordAuthentication;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,16 +20,27 @@ import org.jsoup.select.Elements;
  * @author Win 8.1
  */
 public class WebCrawler {
+    private static class DummyAuthenticator extends Authenticator {
+	      public PasswordAuthentication getPasswordAuthentication() {
+	         return new PasswordAuthentication(
+	               "asrama@its.ac.id", "asramaits".toCharArray()
+	               );
+	      }
+	   }
     public static void main(String[] args) throws Exception {
-    Document doc = Jsoup.connect("http://www.businessdictionary.com/terms-by-subject.php?subject=43").post();
+    System.setProperty("http.proxyHost", "proxy.its.ac.id");
+    System.setProperty("http.proxyPort", "8080");
+    Authenticator.setDefault(new DummyAuthenticator());
+    Document doc = Jsoup.connect("http://www.businessdictionary.com/terms-by-subject.php?subject=1").get();
     Elements column = doc.getElementsByClass("column");
     for(int i=0; i<column.size(); i++){
         Elements links = column.get(i).getElementsByTag("a");
-        for(int j=0; j<links.size(); j++){
+        for(int j=2329; j<links.size(); j++){
             String link = links.get(j).attr("href");
             String text = links.get(j).text();
+            System.out.println(j);
             System.out.println(text);
-            File file = new File("D://S2//Thesis//dictionary//"+text+".xml");
+            File file = new File("D://S2//Thesis//dictionary//Accounting & Auditing//"+text+".xml");
             if(!file.exists()){
                 file.createNewFile();
             }

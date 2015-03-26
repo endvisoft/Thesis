@@ -45,7 +45,7 @@ public class WikiParser {
 	 		
             wikipage = new WikiPage();
             wikipage.setId(doc.getElementsByTagName("id").item(0).getTextContent());
-            wikipage.setTitle(doc.getElementsByTagName("tittle").item(0).getTextContent());
+            wikipage.setTitle(doc.getElementsByTagName("title").item(0).getTextContent());
             wikipage.setLemma(doc.getElementsByTagName("lemma").item(0).getTextContent());
             if(doc.getElementsByTagName("isDisambiguation").item(0).getTextContent().equals("no"))
             {

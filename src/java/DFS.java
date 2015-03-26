@@ -134,8 +134,8 @@ public class DFS {
         List<List<Double>> result = new ArrayList<>();
         //WordNet wn = WordNet.getInstance();
         IIndexWord idxWord1 = dict.getIndexWord ("vendor", POS.NOUN);
-        IIndexWord idxWord2 = dict.getIndexWord ("payment", POS.NOUN );
-        int maxDepth = 5;
+        IIndexWord idxWord2 = dict.getIndexWord ("payment", POS.NOUN);
+        int maxDepth = 3;
         Double resultWord1 [] = new Double[idxWord1.getWordIDs().size()];
         Double resultWord2 [] = new Double[idxWord2.getWordIDs().size()];
         for(int i=0; i<idxWord1.getWordIDs().size(); i++)
@@ -193,8 +193,8 @@ public class DFS {
                 index2=i;
             }
         }
-        System.out.println("Sense 1 Terbaik adalah : "+dict.getWord(idxWord1.getWordIDs().get(index1)).getSynset()+" dengan nilai "+resultWord1[index1]);
-        System.out.println("Sense 2 Terbaik adalah : "+dict.getWord(idxWord2.getWordIDs().get(index2)).getSynset()+" dengan nilai "+resultWord2[index2]);
+        System.out.println("Sense 1 Terbaik adalah : "+dict.getWord(idxWord1.getWordIDs().get(index1)).getSynset()+" dan gloss "+dict.getWord(idxWord1.getWordIDs().get(index1)).getSynset().getGloss()+" dengan nilai "+resultWord1[index1]);
+        System.out.println("Sense 2 Terbaik adalah : "+dict.getWord(idxWord2.getWordIDs().get(index2)).getSynset()+" dan gloss "+dict.getWord(idxWord2.getWordIDs().get(index2)).getSynset().getGloss()+" dengan nilai "+resultWord2[index2]);
     }
         
 }
