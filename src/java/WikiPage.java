@@ -21,6 +21,7 @@ public class WikiPage {
     private String[] categories;
     private Boolean isDisambiguation;
     private Boolean isRedirection;
+    private String source;
 
     /**
      * @return the id
@@ -90,6 +91,17 @@ public class WikiPage {
      */
     public void setText(String text) {
         this.text = text;
+    }
+    
+    public String getSource() {
+        return source;
+    }
+
+    /**
+     * @param text the text to set
+     */
+    public void setSource(String source) {
+        this.source = source;
     }
 
     /**

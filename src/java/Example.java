@@ -6,11 +6,6 @@ import edu.mit.jwi.item.ISenseKey;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.IWord;
 import edu.mit.jwi.item.IWordID;
-import it.uniroma1.lcl.babelfy.Babelfy;
-import it.uniroma1.lcl.babelfy.Babelfy.Matching;
-import it.uniroma1.lcl.babelfy.Babelfy.AccessType;
-import it.uniroma1.lcl.babelfy.data.Annotation;
-import it.uniroma1.lcl.babelfy.data.BabelSynsetAnchor;
 import it.uniroma1.lcl.babelnet.BabelNet;
 import it.uniroma1.lcl.babelnet.BabelSense;
 import it.uniroma1.lcl.babelnet.BabelSynset;
@@ -19,7 +14,7 @@ import it.uniroma1.lcl.jlt.wordnet.WordNet;
 
 public class Example {
 	public static void main(String[] args) throws Exception {
-	//	System.setProperty("http.proxyHost", "10.100.1.15");
+	/*	System.setProperty("http.proxyHost", "10.100.1.15");
         //System.setProperty("http.proxyPort", "8080");
         //Authenticator.setDefault(new DummyAuthenticator());
 		Babelfy bfy = Babelfy.getInstance(AccessType.ONLINE);
@@ -27,10 +22,10 @@ public class Example {
 		Annotation annotations = bfy.babelfy("", inputText,
 			Matching.EXACT, Language.EN);
 		System.out.println("inputText: "+inputText+"\nannotations:");
-		/*for(BabelSynsetAnchor annotation : annotations.getAnnotations())
+		for(BabelSynsetAnchor annotation : annotations.getAnnotations())
 			System.out.println (annotation.getAnchorText()+"\t"+
 				annotation.getBa belSynset().getId()+"\t"+
-				annotation.getBabelSynset());*/
+				annotation.getBabelSynset());
 		for(BabelSynsetAnchor annotation : annotations.getAnnotations())
 		{
 			BabelSynset synset = annotation.getBabelSynset();
@@ -62,15 +57,15 @@ public class Example {
 						System.out.println(syns.get(i).toString());
 					}*/
 					
-		     // code logic here
-				}
+		     // code logic here*/
+				
 			}
-	}
-	private static class DummyAuthenticator extends Authenticator {
+	
+	/*private static class DummyAuthenticator extends Authenticator {
 	      public PasswordAuthentication getPasswordAuthentication() {
 	         return new PasswordAuthentication(
 	               "asrama@its.ac.id", "asramaits".toCharArray()
 	               );
 	      }
-	   }
+	   }*/
 }

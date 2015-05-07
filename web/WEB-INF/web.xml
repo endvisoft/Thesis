@@ -13,6 +13,14 @@
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>/faces/*</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ControlServlet</servlet-name>
+        <servlet-class>ControlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ControlServlet</servlet-name>
+        <url-pattern>/ControlServlet/*</url-pattern>
+    </servlet-mapping>    
     <session-config>
         <session-timeout>
             30

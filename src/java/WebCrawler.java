@@ -28,19 +28,19 @@ public class WebCrawler {
 	      }
 	   }
     public static void main(String[] args) throws Exception {
-    System.setProperty("http.proxyHost", "proxy.its.ac.id");
-    System.setProperty("http.proxyPort", "8080");
-    Authenticator.setDefault(new DummyAuthenticator());
-    Document doc = Jsoup.connect("http://www.businessdictionary.com/terms-by-subject.php?subject=1").get();
+    //System.setProperty("http.proxyHost", "proxy.its.ac.id");
+    //System.setProperty("http.proxyPort", "8080");
+    //Authenticator.setDefault(new DummyAuthenticator());
+    Document doc = Jsoup.connect("http://www.businessdictionary.com/terms-by-subject.php?subject=20").get();
     Elements column = doc.getElementsByClass("column");
-    for(int i=0; i<column.size(); i++){
+    for(int i=1; i<column.size(); i++){
         Elements links = column.get(i).getElementsByTag("a");
-        for(int j=2329; j<links.size(); j++){
+        for(int j=409; j<442; j++){
             String link = links.get(j).attr("href");
             String text = links.get(j).text();
             System.out.println(j);
             System.out.println(text);
-            File file = new File("D://S2//Thesis//dictionary//Accounting & Auditing//"+text+".xml");
+            File file = new File("D://S2//Thesis//dictionary//HR, Recruiting, Teams, & Training//"+text+".xml");
             if(!file.exists()){
                 file.createNewFile();
             }
@@ -94,6 +94,15 @@ public class WebCrawler {
                         }
                     }
                     bufferedWriter.write("</link>");
+                    bufferedWriter.newLine();
+                }
+                else
+                {
+                    bufferedWriter.write("<text></text>");
+                    bufferedWriter.newLine();
+                    bufferedWriter.write("<redirection></redirection>");
+                    bufferedWriter.newLine();
+                    bufferedWriter.write("<link></link>");
                     bufferedWriter.newLine();
                 }
             }

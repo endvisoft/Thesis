@@ -1,10 +1,6 @@
 
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.IWord;
-import it.uniroma1.lcl.babelfy.Babelfy;
-import it.uniroma1.lcl.babelfy.BabelfyKeyNotValidOrLimitReached;
-import it.uniroma1.lcl.babelfy.data.Annotation;
-import it.uniroma1.lcl.babelfy.data.BabelSynsetAnchor;
 import it.uniroma1.lcl.babelnet.BabelNet;
 import it.uniroma1.lcl.babelnet.BabelNetConfiguration;
 import it.uniroma1.lcl.babelnet.BabelSynset;
@@ -42,9 +38,9 @@ public class sentenceSimilarity {
         System.out.println("Similarity Score ");
     }
     @SuppressWarnings("null")
-    public Double calculateSimilarity(String a, String b, ServletContext ctx) throws IOException, URISyntaxException, BabelfyKeyNotValidOrLimitReached
+    public Double calculateSimilarity(String a, String b, ServletContext ctx) throws IOException, URISyntaxException
     {
-        Double d = 0.0;
+        /*Double d = 0.0;
         Double similarityScore = 0.0;
         Double tempSynset, tempWn, tempBabel;
         Double maxWn=0.0, maxBabel=0.0;
@@ -131,11 +127,12 @@ public class sentenceSimilarity {
             //System.out.println(similarityScore);
         }
         similarityScore = similarityScore/comparator2;
-        return similarityScore; 
+        return similarityScore; */
+        return 0.0;
     }
     private Double getSynset(BabelSynset a, BabelSynset b)
     {
-        Double sim = 0.0;
+        /*Double sim = 0.0;
         List<String> wordnetOffsets1 = a.getWordNetOffsets();
         List<String> wordnetOffsets2 = b.getWordNetOffsets();
         WordNet wn = WordNet.getInstance();
@@ -164,12 +161,13 @@ public class sentenceSimilarity {
             }
         }
         }
-        return sim;
+        return sim;*/
+        return 0.0;
 }
     
     private Double getWnRelation(BabelSynset a, BabelSynset b)
     {
-        Double hyper=0.0, hypo=0.0;
+        /*Double hyper=0.0, hypo=0.0;
         Double similarityScore = 0.0;
         List<String> wordnetOffsets1 = a.getWordNetOffsets();
         List<String> wordnetOffsets2 = b.getWordNetOffsets();
@@ -218,12 +216,13 @@ public class sentenceSimilarity {
         if(hyper>hypo) similarityScore = hyper;
         else similarityScore = hypo;
         //System.out.println("sim = "+hypo+" "+similarityScore);
-        return similarityScore;
+        return similarityScore;*/
+        return 0.0;
     }
     
     private Double getBabelRelation(BabelSynset a, BabelSynset b) throws IOException
     {
-        BabelNet bn = BabelNet.getInstance();
+        /*BabelNet bn = BabelNet.getInstance();
         List<String> successor1 = bn.getSuccessors(a.getId());
         List<String> successor2 = bn.getSuccessors(b.getId());
         Double sim = 0.0, maxSim = 0.0;
@@ -264,7 +263,8 @@ public class sentenceSimilarity {
             
         }
         //System.out.println("Nilai max : "+maxSim);
-        return maxSim;
+        return maxSim;*/
+        return 0.0;
     }
        
     

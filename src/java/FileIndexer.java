@@ -65,7 +65,7 @@ public class FileIndexer {
             while (reader.ready())
             {
                 String line = reader.readLine();
-		listSynset.add(Arrays.asList(line.split(" ")));
+		listSynset.add(Arrays.asList(line.split("\\^")));
             }
             reader.close();
             
@@ -88,17 +88,16 @@ public class FileIndexer {
 		
     for (List<String> synset : listSynset)
     {
-        String id = synset.get(0);
-	String title = synset.get(1);
-        String lemma = synset.get(2);
-        String sense = synset.get(3);
-        String text = synset.get(4);
-        String redirection = synset.get(5);
-        String link = synset.get(6);
-	String category = synset.get(7);
-        String isDisambiguation = synset.get(8);
-        String isRedirect = synset.get(9);
-	System.out.println(id+" "+title+" "+lemma+" "+category+" "+isRedirect);
+        System.out.println("index : "+synset.get(0));
+        String SynsetId = synset.get(0);
+	String WordNetID = synset.get(1);
+        String Title = synset.get(2);
+        String Gloss = synset.get(3);
+        System.out.println("Lemma : "+synset.get(4));
+        String[] Lemma = synset.get(4).split("_");
+        String[] RelatedLinks = synset.get(5).split("_");
+        String Source = synset.get(6);
+	//System.out.println(id+" "+title+" "+lemma+" "+category+" "+isRedirect);
 			// log.info("PATH DOC FOR " + firstPathElement + 
 			//		"\n\t\t START: " + firstPathElement +
 			//		"\n\t\t START: " + lastPathElement +
@@ -106,34 +105,34 @@ public class FileIndexer {
 			
 			// creates a new document
 	Document doc = new Document();
-	doc.add(new Field("ID",
-        id, Field.Store.YES, Field.Index.NOT_ANALYZED));
+	doc.add(new Field("SynsetID",
+        SynsetId, Field.Store.YES, Field.Index.NOT_ANALYZED));
+        doc.add(new Field("WordNetID",
+	WordNetID, Field.Store.YES, Field.Index.NOT_ANALYZED));
         doc.add(new Field("Title",
-	title, Field.Store.YES, Field.Index.NOT_ANALYZED));
+	Title, Field.Store.YES, Field.Index.NOT_ANALYZED));
+        doc.add(new Field("Gloss",
+	Gloss, Field.Store.YES, Field.Index.NOT_ANALYZED));
+        for(int i=0; i<Lemma.length; i++){
 	doc.add(new Field("Lemma", 
-	lemma, Field.Store.NO, Field.Index.NOT_ANALYZED));
-	doc.add(new Field("Sense", 
-	sense, Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("Text", 
-	text, Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("Redirection", 
-	redirection, Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("Link", 
-	link, Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("Category", 
-	category, Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("isDisambiguation", 
-	isDisambiguation, Field.Store.YES, Field.Index.NOT_ANALYZED));
-        doc.add(new Field("isRedirect", 
-	isRedirect, Field.Store.YES, Field.Index.NOT_ANALYZED));
-			
+	Lemma[i], Field.Store.YES, Field.Index.NOT_ANALYZED));
+        //System.out.println(Lemma[i]);
+        }
+        for(int i=0; i<RelatedLinks.length; i++){
+	doc.add(new Field("RelatedLinks", 
+	RelatedLinks[i], Field.Store.YES, Field.Index.NOT_ANALYZED));
+        //System.out.println(Lemma[i]);
+        }
+	doc.add(new Field("Source", 
+	Source, Field.Store.YES, Field.Index.NOT_ANALYZED));
+		
 	docs.add(doc);
         }
     return docs;
 }
     public static void main(String[] args) throws Exception {
-        File txtIndexDir = new File("D:\\S2\\Thesis\\txtdir\\");
-        File indexDir = new File("D:\\S2\\Thesis\\txtdir\\index\\");
+        File txtIndexDir = new File("D:\\S2\\Thesis\\txtdir\\Mapped\\txtdir\\");
+        File indexDir = new File("D:\\S2\\Thesis\\txtdir\\cobatxt\\index\\");
         createIndex(txtIndexDir, indexDir);
     }
 }

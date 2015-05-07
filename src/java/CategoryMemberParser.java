@@ -25,7 +25,7 @@ public class CategoryMemberParser extends DefaultHandler{
                    String temp = attributes.getValue("cmcontinue");
                    if(temp!=null)
                    { 
-                       Tesstwiki.setCmContinue(temp);
+                       //Tesstwiki.setCmContinue(temp);
                    }
                    break;
                }

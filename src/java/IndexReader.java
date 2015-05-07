@@ -24,44 +24,40 @@ import org.apache.lucene.search.TopDocs;
  */
 public class IndexReader {
     
-    public static List<WikiPage> readIndex(String path, String ID) throws IOException{
+    public static List<MySynset> readIndex(String path, String ID) throws IOException{
         IndexSearcher dictionary = new IndexSearcher(path, true);
         String reference = new StringBuffer(ID).toString();
         BooleanQuery q = new BooleanQuery();
         q.add(new BooleanClause(new TermQuery(
-				new Term("ID",reference)),Occur.MUST));
+				new Term("Title",reference)),Occur.MUST));
         TopDocs docs = dictionary.search(q, 10);
-        List<WikiPage> wikis = new ArrayList<>();
+        List<MySynset> synsets = new ArrayList<>();
         for (ScoreDoc scoreDoc : docs.scoreDocs)
 	{
 	    Document doc = dictionary.doc(scoreDoc.doc);
-	    WikiPage wiki = getWikiPage(doc);
-	    wikis.add(wiki);
+	    MySynset synset = getMySynsets(doc);
+	    synsets.add(synset);
 	}
-        return wikis;
+        return synsets;
     }
     
-    public static WikiPage getWikiPage(Document doc){
-        WikiPage wiki = new WikiPage();
-        wiki.setId(doc.get("ID"));
-        wiki.setTitle(doc.get("Title"));
-        wiki.setLemma(doc.get("Lemma"));
-        wiki.setSense(doc.get("Sense"));
-        wiki.setLinks(doc.get("Link").split("_"));
-        wiki.setRedirection(doc.get("Redirection").split("_"));
-        wiki.setCategories(doc.get("Category").split("_"));
-        wiki.setText(doc.get("Text"));
-        wiki.setIsDisambiguation(Boolean.TRUE);
-        wiki.setIsRedirection(Boolean.TRUE);
-        return wiki;
+    public static MySynset getMySynsets(Document doc){
+        MySynset synset = new MySynset();
+        synset.setSynsetId(doc.get("SynsetID"));
+        synset.setWordNetID(doc.get("WordNetID"));
+        synset.setTitle(doc.get("Title"));
+        synset.setLemma(doc.getValues("Lemma"));
+        synset.setGloss(doc.get("Gloss"));
+        synset.setRelatedLinks(doc.getValues("RelatedLinks"));
+        synset.setSource(doc.get("Source"));
+        return synset;
     }
     
     public static void main(String[] args) throws Exception {
-        List<WikiPage> wikis = new ArrayList<>();
-        wikis = readIndex("D:\\S2\\Thesis\\txtdir\\index", "wiki002");
-        if(!wikis.isEmpty())
-        System.out.println(wikis.get(0).getTitle());
-        else
-            System.out.println("Kosong");
+        List<MySynset> synsets = new ArrayList<>();
+        synsets = readIndex("D:\\S2\\Thesis\\txtdir\\cobatxt\\index", "ACCA");
+        for(int i=0; i<synsets.size(); i++){
+            System.out.println(synsets.get(i).getSynsetId());
+        }
     }
 }

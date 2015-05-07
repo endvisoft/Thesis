@@ -1,10 +1,12 @@
 
-import it.uniroma1.lcl.babelfy.Babelfy;
-import it.uniroma1.lcl.babelfy.Babelfy.AccessType;
-import it.uniroma1.lcl.babelfy.Babelfy.Matching;
-import it.uniroma1.lcl.babelfy.data.Annotation;
-import it.uniroma1.lcl.babelfy.data.BabelSynsetAnchor;
+
+import it.uniroma1.lcl.babelfy.commons.annotation.SemanticAnnotation;
+import it.uniroma1.lcl.babelfy.core.Babelfy;
+import it.uniroma1.lcl.babelnet.BabelNet;
+import it.uniroma1.lcl.babelnet.BabelSynset;
+import it.uniroma1.lcl.babelnet.BabelSynsetID;
 import it.uniroma1.lcl.jlt.util.Language;
+import java.util.List;
 
 
 
@@ -20,17 +22,19 @@ import it.uniroma1.lcl.jlt.util.Language;
 public class WordSenseDisambiguation {
     public static void main(String[] args) throws Exception {
         // get an instance of the Babelfy RESTful API manager
-	Babelfy bfy = Babelfy.getInstance(AccessType.ONLINE);
-	    // the string to be disambiguated
-	String inputText = "sales order entry";
-	    // the actual disambiguation call
-	Annotation annotations = bfy.babelfy("", inputText,
-	Matching.EXACT, Language.EN);
-	    // printing the result
-	System.out.println("inputText: "+inputText+"\nannotations:");
-	for(BabelSynsetAnchor annotation : annotations.getAnnotations())
-	    System.out.println(annotation.getAnchorText()+"\t"+
-	        annotation.getBabelSynset().getId()+"\t"+
-	        annotation.getBabelSynset());
+	Babelfy bfy = new Babelfy();
+        BabelNet bn = BabelNet.getInstance();
+        String inputText = "production order information system";
+        List<SemanticAnnotation> bfyAnnotations = bfy.babelfy(inputText, Language.EN);
+	for (SemanticAnnotation annotation : bfyAnnotations)
+        {
+            //splitting the input text using the CharOffsetFragment start and end anchors
+            String frag = inputText.substring(annotation.getCharOffsetFragment().getStart(),
+		annotation.getCharOffsetFragment().getEnd() + 1).toLowerCase();
+            BabelSynset synset = bn.getSynset(new BabelSynsetID(annotation.getBabelSynsetID()));
+            System.out.println(frag);
+            System.out.println(synset.getMainSense());
+            System.out.println(synset.getMainGloss(Language.EN));
+        }
     }
 }

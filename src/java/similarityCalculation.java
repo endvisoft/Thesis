@@ -1,5 +1,4 @@
 
-import it.uniroma1.lcl.babelfy.BabelfyKeyNotValidOrLimitReached;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.io.FileInputStream;
@@ -57,9 +56,7 @@ public class similarityCalculation extends petrinet.PetriNetSimilarity{
              Logger.getLogger(similarityCalculation.class.getName()).log(Level.SEVERE, null, ex);
          } catch (URISyntaxException ex) {
              Logger.getLogger(similarityCalculation.class.getName()).log(Level.SEVERE, null, ex);
-         } catch (BabelfyKeyNotValidOrLimitReached ex) {
-             Logger.getLogger(similarityCalculation.class.getName()).log(Level.SEVERE, null, ex);
-         }
+         } 
                 
          try {
              cup=calCup(pn1, pn2, ctx);
@@ -67,14 +64,12 @@ public class similarityCalculation extends petrinet.PetriNetSimilarity{
              Logger.getLogger(similarityCalculation.class.getName()).log(Level.SEVERE, null, ex);
          } catch (URISyntaxException ex) {
              Logger.getLogger(similarityCalculation.class.getName()).log(Level.SEVERE, null, ex);
-         } catch (BabelfyKeyNotValidOrLimitReached ex) {
-             Logger.getLogger(similarityCalculation.class.getName()).log(Level.SEVERE, null, ex);
-         }
+         } 
                 System.out.println("cap : "+cap+" cup : "+cup);
                 return (cap*(float)1.0)/cup;
         }
         
-        private int calCap(PetriNet pn1, PetriNet pn2, ServletContext ctx) throws IOException, URISyntaxException, BabelfyKeyNotValidOrLimitReached{
+        private int calCap(PetriNet pn1, PetriNet pn2, ServletContext ctx) throws IOException, URISyntaxException{
                 sentenceSimilarity sim = new sentenceSimilarity();
                 int cap=0;
                 
@@ -180,7 +175,7 @@ public class similarityCalculation extends petrinet.PetriNetSimilarity{
                 return cap;
         }
         
-        private int calCup(PetriNet pn1, PetriNet pn2, ServletContext ctx) throws IOException, URISyntaxException, BabelfyKeyNotValidOrLimitReached{
+        private int calCup(PetriNet pn1, PetriNet pn2, ServletContext ctx) throws IOException, URISyntaxException{
                 sentenceSimilarity sim = new sentenceSimilarity();
                 int cup=0;
                 

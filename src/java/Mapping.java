@@ -8,9 +8,9 @@ import edu.mit.jwi.item.IWord;
 import edu.mit.jwi.item.IWordID;
 import edu.mit.jwi.item.POS;
 import edu.mit.jwi.item.Pointer;
-import it.uniroma1.lcl.jlt.wiki.data.WikiText;
 import it.uniroma1.lcl.jlt.wordnet.WordNet;
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -29,7 +29,7 @@ import java.util.Map;
  */
 public class Mapping {
     
-    public static void mapping(List<WikiPage> listWikiPage) throws MalformedURLException
+    public static void mapping(List<WikiPage> listWikiPage) throws MalformedURLException, IOException
     {
         WordNet wn = WordNet.getInstance();
         Map<WikiPage, ISynset> mapped = new HashMap<>();
@@ -37,51 +37,59 @@ public class Mapping {
             mapped.put(wp, null);
         }
         for (WikiPage wp : listWikiPage) {
+            System.out.println("Lemma : "+wp.getLemma());
             if(wn.isMonosemous(wp.getLemma(), POS.NOUN)){
                 List<ISynset> dummy = new ArrayList<>();
                 dummy = wn.getSynsets(wp.getLemma(), POS.NOUN);
                 mapped.put(wp, dummy.get(0));
                 System.out.println(wp.getLemma()+" Mapped on 1 "+dummy.get(0));
+                WriteTXT.write(wp, dummy.get(0));
             }
         }
-        /*for (WikiPage wp : listWikiPage) {
+        for (WikiPage wp : listWikiPage) {
             if(mapped.get(wp) == null)
             {
+                System.out.println("Sense : "+wp.getSense());
+                if(wp.getSense() == ""){
                 for(int i=0; i<wp.getRedirection().length; i++){
                     if(wn.isMonosemous(wp.getRedirection()[i], POS.NOUN)){
                         List<ISynset> dummy = new ArrayList<>();
                         dummy = wn.getSynsets(wp.getRedirection()[i], POS.NOUN);
                         mapped.put(wp, dummy.get(0));
                         System.out.println(wp.getLemma()+" Mapped on 2 "+dummy.get(0));
+                        WriteTXT.write(wp, dummy.get(0));
                         break;
                     }
                 }
+              }
             }
-        }*/
+        }
         for (WikiPage wp : listWikiPage) {
             if(mapped.get(wp) == null){
                 //BOW(listWikiPage.get(i), listWikiRed.get(i));
                 //contextGraph(wp);
                 if(wn.getSynsets(wp.getLemma(), POS.NOUN).isEmpty())
                 {
-                    System.out.println("Buat baru");
+                    WriteTXT.writeNew(wp);
                 }
                 else
                 {
-                    contextGraph(wp);
+                    ISynset syn = contextGraph(wp);
+                    WriteTXT.write(wp, syn);
                 }
             }
         }
          
     }
     
-    public static void contextGraph(WikiPage wp) throws MalformedURLException {
+    public static ISynset contextGraph(WikiPage wp) throws MalformedURLException {
         URL url = new URL("file",null,"E:\\WordNet-3.0\\dict");
         IDictionary dict = new Dictionary (url);
         dict.open();
         List<String> contextWiki = new ArrayList<>();
         List<String> contextWordNet = new ArrayList<>();
         int maxDepth = 5;
+        //System.out.println(wp.getLinks().length);
         for(int i=0; i<wp.getLinks().length; i++){
             contextWiki.add(wp.getLinks()[i]);
         }
@@ -92,9 +100,7 @@ public class Mapping {
             contextWiki.add(wp.getCategories()[i]);
         }
         contextWiki.add(wp.getSense());
-        /*for(int i=0; i<contextWiki.size(); i++){
-            System.out.println(contextWiki.get(i));
-        }*/
+        contextWiki.remove("null");
         IIndexWord idxWord1 = dict.getIndexWord (wp.getLemma(), POS.NOUN);
         Double resultScore [] = new Double[idxWord1.getWordIDs().size()];
         Integer sumWord [] = new Integer[idxWord1.getWordIDs().size()];
@@ -108,8 +114,7 @@ public class Mapping {
             ISynset source = word1.getSynset();
             Double score = 0.0;
             for(int j=0; j<contextWiki.size(); j++){
-                System.out.println(contextWiki.get(j));
-                IIndexWord idxWord2 = dict.getIndexWord(contextWiki.get(j),POS.NOUN);
+                IIndexWord idxWord2 = dict.getIndexWord(contextWiki.get(j).toLowerCase(),POS.NOUN);
                 Double result = 0.0;
                 if(idxWord2 != null){
                 for(int k=0; k<idxWord2.getWordIDs().size(); k++){
@@ -139,6 +144,7 @@ public class Mapping {
             }
             resultScore[i] = score;
             System.out.println("Selesai "+dict.getWord(idxWord1.getWordIDs().get(i)).getSynset()+" dengan score :"+resultScore[i]);
+            
         }
         int index = 0;
         Double max = 0.0;
@@ -151,6 +157,7 @@ public class Mapping {
         IWord wordResult = dict.getWord(idxWord1.getWordIDs().get(index));
         ISynset result = wordResult.getSynset();
         System.out.println("Hasilnya adalah "+result+" dengan score : "+resultScore[index]);
+        return result;
     }
     
     public static void BOW(WikiPage wp, String[] listWikiRed) throws MalformedURLException {
@@ -228,9 +235,11 @@ public class Mapping {
     }
     
     public static void main(String[] args) throws Exception {
-        File folder = new File("D:\\S2\\Thesis\\txtdir\\coba");
+        
+        File folder = new File("D:\\S2\\Thesis\\txtdir\\Business by country\\Business by country");
 	File[] fileList = folder.listFiles();
 	List<File> wikifile = new ArrayList<File>();
+        
 	for (File file : fileList)
 	{
             if (file.getAbsolutePath().endsWith(".xml"))
@@ -241,6 +250,7 @@ public class Mapping {
         List<WikiPage> listWikiPage = new ArrayList<>();
         for(File file : wikifile){
             WikiParser parser = new WikiParser(file.getAbsolutePath());
+            System.out.println("file: "+file.getAbsolutePath());
             listWikiPage.add(parser.readWikiPage());
         }
         mapping(listWikiPage);

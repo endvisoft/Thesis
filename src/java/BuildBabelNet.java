@@ -8,24 +8,10 @@ import edu.mit.jwi.item.ISynsetID;
 import edu.mit.jwi.item.IWord;
 import edu.mit.jwi.item.POS;
 import edu.mit.jwi.item.SynsetID;
-import it.uniroma1.lcl.babelnet.BabelCategory;
-import it.uniroma1.lcl.babelnet.BabelGloss;
 import it.uniroma1.lcl.babelnet.BabelNet;
 import it.uniroma1.lcl.babelnet.BabelSynset;
 import it.uniroma1.lcl.babelnet.iterators.BabelLexiconIterator;
 import it.uniroma1.lcl.jlt.util.Language;
-import it.uniroma1.lcl.jlt.wiki.EntityList;
-import it.uniroma1.lcl.jlt.wiki.IndexWiki;
-import it.uniroma1.lcl.jlt.wiki.SearchWiki;
-import it.uniroma1.lcl.jlt.wiki.SearchWikiCategory;
-import it.uniroma1.lcl.jlt.wiki.SearchWikiCategoryCentral;
-import it.uniroma1.lcl.jlt.wiki.WikiDumpConverter;
-import it.uniroma1.lcl.jlt.wiki.WikiMapper;
-import it.uniroma1.lcl.jlt.wiki.data.WikiCategory;
-import it.uniroma1.lcl.jlt.wiki.data.WikiPage;
-import it.uniroma1.lcl.jlt.wiki.iterator.WikiDumpExtractor;
-import it.uniroma1.lcl.jlt.wiki.iterator.WikiDumpIterator;
-import it.uniroma1.lcl.jlt.wikico.WikicoDB;
 import it.uniroma1.lcl.jlt.wordnet.WordNet;
 import java.io.File;
 import java.net.URL;
@@ -48,7 +34,7 @@ import org.apache.lucene.store.FSDirectory;
  */
 public class BuildBabelNet {
     public static void main(String[] args) throws Exception {
-        IndexReader r = IndexReader.open("D:\\BabelNet\\dict");
+        IndexReader r = IndexReader.open("D:\\S2\\Thesis\\txtdir\\cobatxt\\index\\");
 
         int num = r.numDocs();
         for ( int i = 0; i < num; i++)

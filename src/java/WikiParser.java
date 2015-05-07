@@ -1,9 +1,11 @@
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import org.apache.commons.io.IOUtils;
 import org.w3c.dom.Document;
 
 /*
@@ -27,7 +29,12 @@ public class WikiParser {
 	{
             fXmlFile = new File(file);
             dbFactory = DocumentBuilderFactory.newInstance();
+            //FileInputStream dummy = new FileInputStream(fXmlFile);
+            //String xml = StringEscapeUtils.escapeXml(IOUtils.toString(dummy));
             dBuilder = dbFactory.newDocumentBuilder();
+            //String xml = StringEscapeUtils.escapeXml(fXmlFile.toString());
+            //System.out.println(fXmlFile.toString());
+            //System.out.println(xml);
             doc = dBuilder.parse(fXmlFile);
             wikipage = new WikiPage();
 	}
@@ -47,6 +54,7 @@ public class WikiParser {
             wikipage.setId(doc.getElementsByTagName("id").item(0).getTextContent());
             wikipage.setTitle(doc.getElementsByTagName("title").item(0).getTextContent());
             wikipage.setLemma(doc.getElementsByTagName("lemma").item(0).getTextContent());
+            wikipage.setSense(doc.getElementsByTagName("sense").item(0).getTextContent());
             if(doc.getElementsByTagName("isDisambiguation").item(0).getTextContent().equals("no"))
             {
                 wikipage.setIsDisambiguation(Boolean.FALSE);
@@ -63,7 +71,8 @@ public class WikiParser {
             {
                 wikipage.setIsRedirection(Boolean.TRUE);
             }
-            wikipage.setText(doc.getElementsByTagName("text").item(0).getTextContent());
+            wikipage.setText(doc.getElementsByTagName("gloss").item(0).getTextContent());
+            wikipage.setSource(doc.getElementsByTagName("source").item(0).getTextContent());
             wikipage.setRedirection(doc.getElementsByTagName("redirection").item(0).getTextContent().split("_"));
             wikipage.setLinks(doc.getElementsByTagName("link").item(0).getTextContent().split("_"));
             wikipage.setCategories(doc.getElementsByTagName("category").item(0).getTextContent().split("_"));
@@ -82,6 +91,7 @@ public class WikiParser {
         System.out.println("ID :"+wiki.getId());
         System.out.println("Tittle :"+wiki.getTitle());
         System.out.println("lemma :"+wiki.getLemma());
+        System.out.println("sense :"+wiki.getSense());
         System.out.println("Links :");
         for(int i=0; i<wiki.getLinks().length; i++){
             System.out.println(wiki.getLinks()[i]);

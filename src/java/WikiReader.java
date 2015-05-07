@@ -15,7 +15,7 @@ import edu.jhu.nlp.wikipedia.*;
  */
 public class WikiReader {
      public static void main(String[] args) throws Exception {
-         it.uniroma1.lcl.jlt.wiki.data.WikiPage wiki;
+         //it.uniroma1.lcl.jlt.wiki.data.WikiPage wiki;
          
          WikiXMLParser wxp = WikiXMLParserFactory.getSAXParser("D:\\S2\\Thesis\\Wiki\\wikidump.xml");
          /*try
