@@ -132,10 +132,10 @@ public class DFS {
         IDictionary dict = new Dictionary (url);
         dict.open();
         List<List<Double>> result = new ArrayList<>();
-        //WordNet wn = WordNet.getInstance();
-        IIndexWord idxWord1 = dict.getIndexWord ("vendor", POS.NOUN);
-        IIndexWord idxWord2 = dict.getIndexWord ("payment", POS.NOUN);
-        int maxDepth = 3;
+        //WordNet wn = WordNet.getInstance();relationship
+        IIndexWord idxWord1 = dict.getIndexWord ("calculate", POS.VERB);
+        IIndexWord idxWord2 = dict.getIndexWord ("base", POS.NOUN);
+        int maxDepth = 4;
         Double resultWord1 [] = new Double[idxWord1.getWordIDs().size()];
         Double resultWord2 [] = new Double[idxWord2.getWordIDs().size()];
         for(int i=0; i<idxWord1.getWordIDs().size(); i++)
@@ -157,16 +157,22 @@ public class DFS {
             if(!path.isEmpty()){
                 for(int k=0; k<path.size(); k++)
                 {
-                    dummyWord1 = dummyWord1 + 1/(2.7*path.get(k).size());
+                    //System.out.println(path.get(k).size());
+                    int length = path.get(k).size()-2;
+                    //System.out.println(length);
+                    dummyWord1 = dummyWord1 + 1.0/Math.pow(2.7, (double)length);
+                    
                     for(int l=0; l<path.get(k).size(); l++)
                     {
                         System.out.println(path.get(k).get(l));
                     }
+                  //  System.out.println("dalam "+dummyWord1);
                 }
+                //System.out.println("luar "+dummyWord1);
             }
             else
             {
-                dummyWord1 = 1/(2.7*(100+1));
+                dummyWord1 = 1/Math.pow(2.7,(100+1));
             }
             resultWord1[i] = resultWord1[i]+dummyWord1;
             resultWord2[j] = resultWord2[j]+dummyWord1;

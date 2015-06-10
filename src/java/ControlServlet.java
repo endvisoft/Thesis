@@ -90,7 +90,7 @@ public class ControlServlet extends HttpServlet {
             List<String> subset = new ArrayList<String>();
             Map<String, MySynset> searchResult = new HashMap<>();
             Map<String, Integer> searchSize = new HashMap<>();
-            String kalimat=req.getParameter("kalimat");
+            String kalimat=req.getParameter("kalimat").toLowerCase();
             String[] kata2 = kalimat.split(" ");
             for(int i=0; i<kata2.length; i++){
                 String frasa = kata2[i];

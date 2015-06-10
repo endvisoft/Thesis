@@ -17,7 +17,7 @@ import java.io.IOException;
 public class WriteTXT {
     
     public static void write(WikiPage wp, ISynset synset) throws IOException{
-        File newTextFile = new File("D:\\S2\\Thesis\\txtdir\\Wiki\\Business by Country\\"+wp.getId()+".txt");
+        File newTextFile = new File("D:\\S2\\Thesis\\txtdir\\Wiki\\Business Term\\"+wp.getId()+".txt");
         FileWriter fw = new FileWriter(newTextFile);
         fw.write("bn:"+wp.getId());
         fw.write("^");
@@ -64,7 +64,7 @@ public class WriteTXT {
         fw.close();
     }
     public static void writeNew(WikiPage wp) throws IOException{
-        File newTextFile = new File("D:\\S2\\Thesis\\txtdir\\Wiki\\Business by Country\\"+wp.getId()+".txt");
+        File newTextFile = new File("D:\\S2\\Thesis\\txtdir\\Wiki\\Business Term\\"+wp.getId()+".txt");
         FileWriter fw = new FileWriter(newTextFile);
         fw.write("bn:"+wp.getId());
         fw.write("^");

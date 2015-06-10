@@ -126,16 +126,14 @@ public class Mapping {
                     if(!path.isEmpty()){
                     for(int a=0; a<path.size(); a++)
                     {
-                        dummyWord = dummyWord + 1/(2.7*path.get(a).size());
-                        /*for(int b=0; b<path.get(a).size(); b++)
-                        {
-                            System.out.println(path.get(a).get(b));
-                        }*/
+                        int length = path.get(k).size()-2;
+                    //System.out.println(length);
+                        dummyWord = dummyWord + 1.0/Math.pow(2.7, (double)length);
                     }
                     }
                     else
                     {
-                        dummyWord = 1/(2.7*(100+1));
+                        dummyWord = 1/Math.pow(2.7,(100+1));
                     }
                     result = result + dummyWord;
                 }
@@ -236,7 +234,7 @@ public class Mapping {
     
     public static void main(String[] args) throws Exception {
         
-        File folder = new File("D:\\S2\\Thesis\\txtdir\\Business by country\\Business by country");
+        File folder = new File("D:\\S2\\Thesis\\mapping\\Business Term");
 	File[] fileList = folder.listFiles();
 	List<File> wikifile = new ArrayList<File>();
         
